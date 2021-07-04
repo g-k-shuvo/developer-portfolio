@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.banner {
+    height: 90vh;
+    background: url('images/bg1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.flex-container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-image,
+.banner-text,
+.services-left,
+.services-right {
+    width: 40%;
+}
+
+.banner-image img,
+.services-right img {
+    width: 400px;
+}
+
+.banner-text {
+    color: #eee;
+}
+
+.banner-text h3 {
+    font-size: 26px;
+    font-weight: 300;
+}
+
+.banner-text h1{
+    font-size: 36px;
+}
+
+.banner-text span {
+    color: #dea6ff;
+}
+
+.banner-text .work {
+    text-transform: uppercase;
+    margin: 6px 0 16px 0;
+}
+
+.btn {
+    display: inline-block;
+    margin: 15px 0;
+    padding: 8px 12px;
+    background-color: #dea6ff;
+    color: #333;
+    transition: ease-in-out 0.4s;
+}
+
+.btn:hover {
+    background: #eee;
+    color: #dea6ff;
+}
+
+.services {
+    height: 90vh;
+    background: url('images/bg2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.services-left h1 {
+    color: #dea6ff;
+    margin: 18px 0;
+    font-size: 32px;
+}
+
+.services-left p {
+    color: #eee;
+}
+
+.experiences {
+    height:100vh;
+    background: url('images/bg3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.experience-heading{
+    padding-top: 90px;
+    text-align: center;
+}
+
+.experience-heading h1 {
+    font-size: 38px;
+    color: #dea6ff;
+}
+
+.experience-container {
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.experience-one,
+.experience-two {
+    width: 30%;
+    padding: 30px;
+    background: rgb(75, 75, 75);
+    margin: 0 40px;
+    border-left: 6px solid;
+    box-shadow: 0px 4px 12px #69666d;
+}
+
+.experience-one {
+    border-image: linear-gradient(#135058, #f1f2b5);
+    border-image-slice: 1;
+}
+
+.experience-two {
+    border-image: linear-gradient(#2c3e50, #4ca1af);
+    border-image-slice: 1;
+}
+
+.experiences h2 {
+    color: #eee;
+}
+
+.company {
+    color: #dea6ff;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.company-details {
+    margin-top: 24px;
+    color: #eee;
+    font-size: 16px;
+}
+
+.footer {
+    background: #dea6ff;
+    text-align: center;
+    padding: 16px 0;
+    font-size: 14px;
+}
