@@ -104,25 +104,23 @@ img {
 }
 
 .experiences {
-    height:100vh;
+    padding: 100px 0;
+    height: 100vh;
     background: url('images/bg3.png');
     background-size: cover;
     background-repeat: no-repeat;
-
 }
 
-.experience-heading{
-    padding-top: 90px;
-    text-align: center;
-}
+
 
 .experience-heading h1 {
+    text-align: center;
     font-size: 38px;
     color: #dea6ff;
 }
 
 .experience-container {
-    height: 70%;
+    height: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
